@@ -11,7 +11,7 @@ class Hello extends Component {
       <div>
         <h1>Hello World!</h1>
         <p>Paragraph</p>
-        <img src=""
+        <img src={require("./images/images.jpeg")}></img>
       </div>
     )
   }
