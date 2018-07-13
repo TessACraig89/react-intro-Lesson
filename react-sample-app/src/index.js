@@ -1,8 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Hello from './App.js'
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+/*ReactDOM.render takes the Virtual DOM node created by extends Component and adds it to the actual DOM. It takes two arguments...
+-The component.
+-The DOM element we want to append it to.*/
+ReactDOM.render(
+  <Hello />,
+  document.getElementById('root')
+)
