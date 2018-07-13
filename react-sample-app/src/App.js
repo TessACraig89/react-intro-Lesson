@@ -10,6 +10,8 @@ class Hello extends Component {
     return (
       <div>
         <h1>Hello World!</h1>
+        <p>Paragraph</p>
+        <img src=""
       </div>
     )
   }
